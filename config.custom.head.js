@@ -1,186 +1,165 @@
-const configCustomHead = {
-  custom_head: [
+{
+  "custom_head": [
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "name",
-          value: "google-site-verification",
+          "attribute": "name",
+          "value": "google-site-verification"
         },
         {
-          attribute: "content",
-          value: "HeoaF1EWrYhgXsRwL41FYLo0KeanX9GhJppBej-CkYo",
-        },
-      ],
+          "attribute": "content",
+          "value": "HeoaF1EWrYhgXsRwL41FYLo0KeanX9GhJppBej-CkYo"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "name",
-          value: "viewport",
+          "attribute": "name",
+          "value": "viewport"
         },
         {
-          attribute: "content",
-          value:
-            "width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=5.0",
-        },
-      ],
+          "attribute": "content",
+          "value": "width=device-width,initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=5.0"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "name",
-          value: "description",
+          "attribute": "name",
+          "value": "description"
         },
         {
-          attribute: "content",
-          value: "${descriptionPost}",
-        },
-      ],
+          "attribute": "content",
+          "value": "${descriptionPost}"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "charset",
-          value: "UTF-8",
-        },
-      ],
+          "attribute": "charset",
+          "value": "UTF-8"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "property",
-          value: "og:type",
+          "attribute": "property",
+          "value": "og:type"
         },
         {
-          attribute: "content",
-          value: "article",
-        },
-      ],
+          "attribute": "content",
+          "value": "article"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "property",
-          value: "og:title",
+          "attribute": "property",
+          "value": "og:title"
         },
         {
-          attribute: "content",
-          value: "${titlePost}",
-        },
-      ],
+          "attribute": "content",
+          "value": "${titlePost}"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "property",
-          value: "og:description",
+          "attribute": "property",
+          "value": "og:description"
         },
         {
-          attribute: "content",
-          value: "${descriptionPost}",
-        },
-      ],
+          "attribute": "content",
+          "value": "${descriptionPost}"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "property",
-          value: "og:url",
+          "attribute": "property",
+          "value": "og:url"
         },
         {
-          attribute: "content",
-          value: "${urlPost}",
-        },
-      ],
+          "attribute": "content",
+          "value": "${urlPost}"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "property",
-          value: "og:site_name",
+          "attribute": "property",
+          "value": "og:site_name"
         },
         {
-          attribute: "content",
-          value: "${nameWeb}",
-        },
-      ],
+          "attribute": "content",
+          "value": "${nameWeb}"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "property",
-          value: "article:published_time",
+          "attribute": "property",
+          "value": "article:published_time"
         },
         {
-          attribute: "content",
-          value: "${timePublish}",
-        },
-      ],
+          "attribute": "content",
+          "value": "${timePublish}"
+        }
+      ]
     },
     {
-      name: "meta",
-      data: "",
-      position: "start",
-      property: [
+      "name": "meta",
+      "data": "",
+      "position": "start",
+      "property": [
         {
-          attribute: "property",
-          value: "article:author",
+          "attribute": "property",
+          "value": "article:author"
         },
         {
-          attribute: "content",
-          value: "${authorPost}",
-        },
-      ],
-    },
-    // {
-    // 	name: "script",
-    // 	data: "",
-    // 	position: "start",
-    // 	property: [{
-    // 			attribute: "async",
-    // 			value: "async"
-    // 		},
-    // 		{
-    // 			attribute: "src",
-    // 			value: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-    // 		},
-    // 		{
-    // 			attribute: "data-ad-client",
-    // 			value: "ca-pub-286cxc017040005690454545"
-    // 		}
-    // 	]
-    // }
-  ],
-};
-
-module.exports = configCustomHead;
+          "attribute": "content",
+          "value": "${authorPost}"
+        }
+      ]
+    }
+  ]
+}
