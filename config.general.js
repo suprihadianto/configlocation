@@ -4,7 +4,7 @@ const config = {
 	sitedescription: "",
 	author: "SEBUAHCATATAN",
 	homepage: {
-		website: "https://alltubedownload.net",
+		website: "https://mifirm.net",
 		domain_alias: "",
 		element_remove: [],
 		element_white_list: ["form"],
