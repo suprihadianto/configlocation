@@ -1,4 +1,4 @@
-const config = {
+{
 	hostname: "http://localhost:3000",
 	sitename: "sebuahcatatan",
 	sitedescription: "",
@@ -22,6 +22,4 @@ const config = {
 		"form",
 		"ins",
 	]
-};
-
-module.exports = config;
+}
